@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href = "/Users/gregdavis/Desktop/BootCAMP/assets/style/hw2style.css">
+    <link rel ="stylesheet" href = "/Users/gregdavis/Desktop/BootCAMP/homework2-profile/homework2-profile/assets/hw2style.css">
     <title>Welcome to My Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1>Gregg Davis</h1>
+    <figure class="wild">
+    <div class="header">
+        <!--removed the h1 tag, but not in styles sheet -->
         <nav>
             <ul>
                 <li> <a href="#about me">About Me</a></li>
@@ -20,40 +21,43 @@
                 <li> <a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+    </figure>
 
     <content class ="content">
-        <div id ="AboutMe">
-            <h2> About Me</h2>
-                <img src="/Users/gregdavis/Desktop/BootCAMP/assets/images/hw2/linkedinphoto.jpeg">
-                <p>
-            I was born in Springfield, MA and currently reside in the west end of Hartford, CT. My interests include: golf, basketball, football, snowboarding, traveling, anime and anything DC or Marvel.
-            When I'm not coding for clients or being active, I'm using caring for my 1 year old pup.
-                </p>
-        </div>
-        
-        <div id="skills">
-            <h2> Skills</h2>
-            <ul>
-                <li> HTML5</li>
-                <li> CSS3</li>
-                <li> Javascript</li>
-                <li> Github</li>
-                <li> MS Office - Word, PowerPoint, Excel, Teams, OneNote</li>
-            </ul>
+        <div id="Aboutme" class="about-me">
+            <img src="/Users/gregdavis/Desktop/BootCAMP/homework2-profile/homework2-profile/assets/images/IMG_2325.JPG" alt="dog picture" class="float-left" />
+                <h2>About Me</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis at tortor vitae vestibulum. Integer tempor rutrum tincidunt. Ut mattis maximus molestie. Ut viverra convallis tempor. Nam ornare scelerisque ornare. Aliquam posuere vitae sem in blandit. Aenean posuere mauris nec nibh commodo, sit amet aliquet elit convallis. Vivamus ullamcorper est quis erat maximus tempus. Curabitur vel odio risus. Phasellus scelerisque ut nunc non vestibulum.
+                    </p>
         </div>
 
-        <div id="work">
-            <h2>Work</h2>
+        <div id="skills" class="skills">
+            <img src="/Users/gregdavis/Desktop/BootCAMP/homework2-profile/homework2-profile/assets/images/skills.jpg" alt="picture of code" class="float-right" />
+                <h2> Skills</h2>
+                    <ul>
+                        <li> HTML5</li>
+                        <li> CSS3</li>
+                        <li> Javascript</li>
+                        <li> Github</li>
+                        <li> MS Office - Word, PowerPoint, Excel, Teams, OneNote</li>
+                    </ul>
+        </div>
+
+        <div id="work" class="work">
+            <img src="/Users/gregdavis/Desktop/BootCAMP/homework2-profile/homework2-profile/assets/images/work.jpg" alt="picture of computer" class="float-left" />
+                <h2>Work</h2>
             <!---add github link to repo-->
         </div>
+    </content>
 
         <div id= "ContactMe" class="contact-me">
             <!--this a ref tag isn't working-->
             <h2> Contact Me</h2>
             <!---want to insert a text box here for comments as well as a box that includes my, email and business number, along with Gitrepo link-->
         </div>
-    </content>
+    
 
     <aside class="aside">
         <div id ="resume">
